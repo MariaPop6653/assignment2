@@ -1,0 +1,116 @@
+<!--contact us form-->
+<!--Maria Pop Mpop6653@conestogac.on.ca-->
+
+<!DOCTYPE html>
+<html lang="en"> 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Nicki Minaj website">
+    <meta name="key words" content="Nicki Minaj, celebrity, artist, rapper">
+
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <link rel="stylesheet" type="text/css" href="css/normalize.css">
+
+    <title>Assignment Two</title>
+</head>
+
+<body>
+    <header class="structural">
+        <h1>Nicki Minaj</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="media.html">Media</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    <section>
+        <main class="structural">
+            <h2>Contact</h2>
+            <form>
+                <div> <!--divs are block elements; puts nested stuff in new line-->
+                    <label for="name" class="formsFont">Name</label>
+                    <input type="text" name="name" id="name" required autofocus>
+                </div>
+                <div>
+                    <label for="email" class="formsFont">Email</label>
+                    <input type="email" name="email" id="email" required>
+                </div>
+                <br>
+
+                <fieldset> <!--all name attributes should be the same-->
+                    <legend class="legend">What are your thoughts on Nicki Minaj?</legend>
+                    <input type="radio" name="rate" value="1" id="1" required>
+                    <label for="1">She's pretty good</label>
+                    <br>
+                    <input type="radio" name="rate" value="2" id="2" required>
+                    <label for="2">I like her eyelashes</label>
+                    <br>
+                    <input type="radio" name="rate" value="3" id="3" required>
+                    <label for="3">She has nice nails</label>
+                    <br>
+                    <input type="radio" name="rate" value="4" id="4" required>
+                    <label for="4">She's the best artist out there</label>
+                    <br>
+                    <input type="radio" name="rate" value="5" id="5" required>
+                    <label for="5">I would love to meet her one day</label>
+                    <br>
+                </fieldset>
+                <br>
+
+                <section>
+                    <label for="rate" class="formsFont">On a scale from 1-10 how much do you love Nicki Minaj?</label>
+                    <select id="rate" name="rate" required>
+                        <option value="one">1</option>
+                        <option value="two">2</option>
+                        <option value="three">3</option>
+                        <option value="four">4</option>
+                        <option value="five">5</option>
+                        <option value="six">6</option>
+                        <option value="seven">7</option>
+                        <option value="eight">8</option>
+                        <option value="nine">9</option>
+                        <option value="ten" selected>10</option>
+                    </select>
+                </section>
+                <br>
+
+                <section class="comments">
+                    <label for="comment" class="formsFont">Which Nicki Minaj look did you like the best and why? </label>
+                    <br>
+                    <textarea id="comment" name="comment" rows="4" required></textarea>
+                </section>
+                <br>
+
+                <section class="fan">
+                    <input type="checkbox" value="true" name="fan" id="fan" required>
+                    <label for="fan"> I am a Nicki Fan</label>
+                </section>
+                <br>
+
+                <section>
+                    <input type="submit" id="submit" value="Submit">
+                </section>
+            </form>
+        </main>
+    
+        <aside class="structural">
+            <h2>Additional Information</h2>
+            <ul>
+                <li><a href="https://en.wikipedia.org/wiki/Nicki_Minaj" target="_blank">Wikipedia</a></li>
+                <li><a href="https://www.nickiminajofficial.com/" target="_blank">Nicki Minaj Official Website</a></li>
+                <li><a href="https://www.youtube.com/channel/UC3jOd7GUMhpgJRBhiLzuLsg" target="">Youtube</a></li>
+            </ul>
+        </aside>
+    </section>
+
+    <footer class="structural">
+        <p>&copy; Maria Pop 2023</p>
+    </footer>
+</body>
+</html>
